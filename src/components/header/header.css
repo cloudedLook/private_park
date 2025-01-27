@@ -1,0 +1,30 @@
+@import url("../../styles/variables.css");
+.header {
+  padding-top: var(--title-padding-top);
+  padding-bottom: 60px;
+  padding-inline: var(--padding-inline);
+  outline: var(--outline);
+}
+.header__title {
+  color: var(--text-color-black);
+  font-family: "Baron Neue";
+  font-size: var(--title-font-size);
+  line-height: 44px;
+  width: 46%;
+}
+
+@media (max-width: 1200px) {
+  .header__title {
+    width: 60%;
+  }
+}
+@media (max-width: 768px) {
+  .header__title {
+    width: 80%;
+  }
+}
+@media (max-width: 470px) {
+  .header__title {
+    width: 90%;
+  }
+}

@@ -1,0 +1,43 @@
+@import url("../assets/fonts/fonts.css");
+
+* {
+  // border: 1px solid red;
+  box-sizing: border-box;
+}
+:root {
+  --title-font-size: 36px;
+  --title-padding-top: 80px;
+
+  --main-bg-color: #ffffff;
+  --alternative-bg-color: #f4f5f5;
+
+  --padding-inline: 120px;
+
+  --text-color-black: #333333;
+  --text-color-neutral_black: #303030;
+  --text-color-dark_gray: #777777;
+
+  --color-primery_bardo: #7a1b1b;
+  --color-hover-bardo: #a82727;
+  --color-shadow-bardo: #7a1b1b;
+  --click-shadow-bardo: 2px 2px 4px #7a1b1b;
+
+  --outline: 0px solid seagreen;
+}
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 850px) {
+  :root {
+    --title-font-size: 36px;
+    --padding-inline: 37px;
+  }
+}
+
+@media (max-width: 375px) {
+  :root {
+    --title-font-size: 32px;
+    --padding-inline: 12px;
+  }
+}
