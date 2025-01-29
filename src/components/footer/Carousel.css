@@ -1,0 +1,34 @@
+@import url(../../styles/variables.css);
+.swiper {
+  overflow: visible;
+}
+
+.carousel__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  margin-top: calc(var(--title-font-size) / 2);
+}
+
+.carousel__button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@media (max-width: 1320px) {
+  .carousel__buttons {
+    margin-top: 0;
+  }
+}
+@media (max-width: 768px) {
+  .carousel__buttons {
+    gap: 40px;
+  }
+}
+@media (max-width: 500px) {
+  .carousel__buttons {
+    display: none;
+  }
+}

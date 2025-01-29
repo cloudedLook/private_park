@@ -5,7 +5,7 @@
   flex-direction: row;
 
   padding-top: 70px;
-  // padding-bottom: 74px;
+  padding-bottom: 74px;
   padding-inline: var(--padding-inline);
   outline: var(--outline);
 
@@ -107,6 +107,7 @@
 @media (max-width: 1320px) {
   .info {
     flex-wrap: wrap;
+    padding-bottom: 0px;
     &__images {
       width: calc(100vw - (var(--padding-inline) * 2));
       position: relative;

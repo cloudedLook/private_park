@@ -8,6 +8,7 @@
       -ms-flex-direction: row;
           flex-direction: row;
   padding-top: 70px;
+  padding-bottom: 74px;
   padding-inline: var(--padding-inline);
   outline: var(--outline);
   background-color: var(--alternative-bg-color);
@@ -102,6 +103,7 @@
   .info {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    padding-bottom: 0px;
   }
   .info__images {
     width: calc(100vw - var(--padding-inline) * 2);

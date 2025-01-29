@@ -1,11 +1,7 @@
 @import url("../assets/fonts/fonts.css");
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 :root {
   --title-font-size: 36px;
+  --font-size-22-20: 22px;
   --title-padding-top: 80px;
   --main-bg-color: #ffffff;
   --alternative-bg-color: #f4f5f5;
@@ -13,6 +9,7 @@
   --text-color-black: #333333;
   --text-color-neutral_black: #303030;
   --text-color-dark_gray: #777777;
+  --text-color-dark_blue: #08131f;
   --color-primery_bardo: #7a1b1b;
   --color-hover-bardo: #a82727;
   --color-shadow-bardo: #7a1b1b;
@@ -29,6 +26,7 @@
 @media (max-width: 375px) {
   :root {
     --title-font-size: 32px;
+    --font-size-22-20: 20px;
     --padding-inline: 12px;
   }
 }

@@ -15,7 +15,8 @@
   font-weight: 400;
 }
 @font-face {
-  font-family: "Lato-bold";
-  src: url(./Lato/Lato-Bold.woff2) format("woff2");
-  font-weight: 500;
+  font-family: "Lato-Bold";
+  src: url(./Lato/Lato-Bold.woff2) format("opentype");
+  font-weight: 700;
+  font-style: normal;
 }
