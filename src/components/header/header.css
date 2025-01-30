@@ -19,11 +19,17 @@
   }
 }
 @media (max-width: 768px) {
+  .header {
+    padding-bottom: 50px;
+  }
   .header__title {
     width: 80%;
   }
 }
 @media (max-width: 470px) {
+  .header {
+    padding-bottom: 40px;
+  }
   .header__title {
     width: 90%;
   }

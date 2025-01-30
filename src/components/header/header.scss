@@ -28,6 +28,7 @@
 
 @media (max-width: 768px) {
   .header {
+    padding-bottom: 50px;
     &__title {
       width: 80%;
     }
@@ -36,6 +37,7 @@
 
 @media (max-width: 470px) {
   .header {
+    padding-bottom: 40px;
     &__title {
       width: 90%;
     }
