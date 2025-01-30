@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import pharmacySrc from "../../assets/img/pharmacy-pin.png";
 import storeSrc from "../../assets/img/shop-pin.png";
 
+import "./Ymap.css";
+
 const YandexMap = () => {
   const [placemarks, setPlacemarks] = useState([]);
   const [showPharmacies, setShowPharmacies] = useState(true);
