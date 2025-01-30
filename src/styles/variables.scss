@@ -1,10 +1,5 @@
 @import url("../assets/fonts/fonts.css");
 
-* {
-  // border: 1px solid red;
-  // box-sizing: border-box;
-}
-
 :root {
   --title-font-size: 36px;
   --font-size-22-20: 22px;
@@ -29,6 +24,9 @@
   --text-color-neutral_black: #303030;
   --text-color-dark_gray: #777777;
   --text-color-dark_blue: #08131f;
+
+  --color-hover: #a2b9f7;
+  --color-active: #799bf8;
 
   --color-primery_bardo: #7a1b1b;
   --color-hover-bardo: #a82727;

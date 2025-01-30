@@ -38,17 +38,18 @@
   border-radius: 20px;
   padding-inline: 20px;
 }
+.map-block__controls-button:active {
+  background-color: var(--color-active) !important;
+}
 
 .map-container {
   height: 100%;
   width: 100%;
-  outline: 2px solid red;
 }
 
 #map {
   height: 100%;
   width: 100%;
-  outline: 2px solid red;
 }
 
 [class*=copyrights-pane] {
@@ -70,5 +71,18 @@
     -webkit-column-gap: 10px;
        -moz-column-gap: 10px;
             column-gap: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .map-block__controls-button:hover {
+    background-color: var(--color-hover);
+  }
+}
+@media (max-width: 450px) {
+  .map-block {
+    padding-inline: 0;
+  }
+  .map-block__title {
+    padding-inline: var(--padding-inline);
   }
 }

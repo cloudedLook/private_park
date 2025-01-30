@@ -1,9 +1,8 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import pharmacySrc from "../../assets/img/pharmacy-pin.png";
 import storeSrc from "../../assets/img/shop-pin.png";
 
 const YandexMap = () => {
-  const mapRef = useRef(null);
   const [placemarks, setPlacemarks] = useState([]);
   const [showPharmacies, setShowPharmacies] = useState(true);
   const [showStores, setShowStores] = useState(true);
@@ -122,13 +121,28 @@ const YandexMap = () => {
 
   return (
     <>
-      <button className="map-block__controls-button" onClick={togglePharmacies}>
-        КРАСОТА И ЗДОРОВЬЕ
-      </button>
-      <button className="map-block__controls-button" onClick={toggleStores}>
-        МАГАЗИНЫ
-      </button>
-      <div id="map"></div>
+      <section className="map-block">
+        <div className="">
+          <h2 className="map-block__title">на карте</h2>
+          <div className="map-block__controls">
+            <button
+              className="map-block__controls-button"
+              onClick={togglePharmacies}
+            >
+              КРАСОТА И ЗДОРОВЬЕ
+            </button>
+            <button
+              className="map-block__controls-button"
+              onClick={toggleStores}
+            >
+              МАГАЗИНЫ
+            </button>
+          </div>
+        </div>
+        <div className="map-container">
+          <div id="map"></div>
+        </div>
+      </section>
     </>
   );
 };
