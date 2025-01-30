@@ -1,4 +1,4 @@
-import "./information.css";
+import "./Information.css";
 import zaglushkaSrc from "../../assets/img/zaglushka.svg";
 import presentationSrc from "../../assets/img/presentation.svg";
 import layoutSrc from "../../assets/img/layout.svg";

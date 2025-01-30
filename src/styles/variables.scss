@@ -10,10 +10,20 @@
   --font-size-22-20: 22px;
   --title-padding-top: 80px;
 
+  --map-max-width: 930px;
+  --map-max-height: 450px;
+
   --main-bg-color: #ffffff;
   --alternative-bg-color: #f4f5f5;
 
   --padding-inline: 120px;
+
+  --map-width-1440: 930px;
+  --map-height-1440: 450px;
+  --map-width-768: 687px;
+  --map-height-768: 450px;
+  --map-width-375: 100vw;
+  --map-height-375: 446px;
 
   --text-color-black: #333333;
   --text-color-neutral_black: #303030;
@@ -33,15 +43,21 @@
 
 @media (max-width: 850px) {
   :root {
+    --title-padding-top: 60px;
     --title-font-size: 36px;
     --padding-inline: 37px;
+    --map-max-width: 930px;
+    --map-max-height: 450px;
   }
 }
 
 @media (max-width: 375px) {
   :root {
+    --title-padding-top: 40px;
     --title-font-size: 32px;
     --font-size-22-20: 20px;
     --padding-inline: 12px;
+    --map-max-width: 375px;
+    --map-max-height: 450px;
   }
 }

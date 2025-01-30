@@ -1,0 +1,62 @@
+@import url(../../styles/variables.css);
+
+.map-block {
+  height: calc(610px - (var(--title-padding-top) * 2));
+
+  padding-inline: var(--padding-inline);
+  padding-top: var(--title-padding-top);
+  padding-bottom: var(--title-padding-top);
+
+  display: flex;
+
+  &__title {
+    font-family: Baron Neue, sans-serif;
+    font-size: var(--title-font-size);
+    margin-bottom: 40px;
+  }
+  &__controls {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 16px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+  }
+  &__controls-button {
+    font-family: Lato-regular, sans-serif;
+    color: var(--text-color-neutral_black);
+    line-height: 36px;
+    text-wrap: nowrap;
+
+    background-color: transparent;
+
+    border: 1px solid rgb(199, 151, 145, 0.3);
+    border-radius: 20px;
+    padding-inline: 20px;
+  }
+}
+.map-container {
+  height: 100%;
+  width: 100%;
+  outline: 2px solid red;
+}
+#map {
+  height: 100%;
+  width: 100%;
+
+  outline: 2px solid red;
+}
+
+[class*="copyrights-pane"] {
+  display: none !important;
+}
+
+@media (max-width: 900px) {
+  .map-block {
+    flex-direction: column;
+    &__controls {
+      flex-direction: row;
+      column-gap: 10px;
+    }
+  }
+}

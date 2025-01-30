@@ -9,6 +9,7 @@
           flex-direction: row;
   padding-top: 70px;
   padding-bottom: 74px;
+  margin-bottom: 121px;
   padding-inline: var(--padding-inline);
   outline: var(--outline);
   background-color: var(--alternative-bg-color);
@@ -136,7 +137,15 @@
     display: none;
   }
 }
+@media (max-width: 900px) {
+  .info {
+    margin-bottom: 99px;
+  }
+}
 @media (max-width: 662px) {
+  .info {
+    margin-bottom: 108px;
+  }
   .factoids {
     width: 100%;
     display: -webkit-box;

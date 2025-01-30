@@ -1,4 +1,4 @@
-import "./footer.css";
+import "./Footer.css";
 import Carousel from "./Carousel.jsx";
 import img01Src from "../../assets/img/01.png";
 import img02Src from "../../assets/img/02.png";
